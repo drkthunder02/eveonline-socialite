@@ -6,7 +6,7 @@ Install Larvel Socialite (see here: https://github.com/laravel/socialite/blob/2.
 Install the eveonline socialite provider
 
 ```
-composer require nullx27/eveonline-socialite
+composer require drkthunder02/eveonline-socialite
 ```
 
 Add the follwing to your .env file:
@@ -76,3 +76,5 @@ $user->getId();
 $user->getName();
 $user->getAvatar();
 ```
+
+This is a fork from nullx27/eveonline-socialite modified to work with any version of socialite.
